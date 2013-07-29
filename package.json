@@ -1,0 +1,28 @@
+{
+  "name": "bottomgirl",
+  "version": "0.1.0",
+  "description": "bottomgirl is not middleman",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barbuza/bottomgirl.git"
+  },
+  "author": "Victor Kotseruba <barbuzaster@gmail.com>",
+  "main": "./lib/bottomgirl.js",
+  "bin": {
+    "bottomgirl": "./bin/bottomgirl.js"
+  },
+  "scripts": {
+    "build": "cake build",
+    "prepublish": "cake build",
+    "postpublish": "rm -rf bin lib"
+  },
+  "dependencies": {
+    "js-beautify": "~1.4.0",
+    "js2coffee": "~0.1.4",
+    "argparse": "~0.1.15",
+    "colors": "~0.6.1"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  }
+}
