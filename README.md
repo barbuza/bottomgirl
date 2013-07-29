@@ -1,5 +1,7 @@
 # bottomgirl
 
+![](http://media.tumblr.com/tumblr_mcpvpyWD8P1rrzlrq.gif)
+
 bottomgirl is a config generator, intended to replace [middleman](http://middlemanapp.com/) with [grunt](http://gruntjs.com/)
 
 # usage
